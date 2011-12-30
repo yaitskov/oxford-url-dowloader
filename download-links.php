@@ -1,6 +1,9 @@
 #!/usr/bin/php
 <?php
 
+/**
+ *  @author rtfm.rtfm.rtfm@gmail.com <Daneel S. Yaitskov>
+ */
 function is_help_arg($param) {
     return $param === "--help"
         or $param === "-h";
